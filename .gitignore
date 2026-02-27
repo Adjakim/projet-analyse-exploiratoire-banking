@@ -1,0 +1,48 @@
+# Données volumineuses (sur Google Drive)
+data/
+*.csv
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Fichiers temporaires Word (mais PAS les .docx finaux)
+~$*.docx
+~$*.doc
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Modèles ML (optionnel si trop gros)
+*.pkl
+*.joblib
+*.h5
+
+# Logs
+*.log
+
+# EXCEPTION : Garder les PDFs et rapports finaux
+!MiniProjet__analyse_exploiratoire.pdf
+!Rapport*.pdf
+!*.docx
